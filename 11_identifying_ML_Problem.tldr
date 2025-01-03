@@ -1,0 +1,173 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 4,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 6,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 2,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 9,
+			"com.tldraw.shape.note": 8,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 0,
+			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 4,
+			"com.tldraw.shape.video": 2,
+			"com.tldraw.binding.arrow": 0
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 769.5346193208894,
+			"y": 758.7602358954871,
+			"lastActivityTimestamp": 1735910806238,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1271.2000732421875,
+				"h": 524
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.25,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": "shape:cs4gF5-bhX2UzwCL-V2Yp",
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:cs4gF5-bhX2UzwCL-V2Yp"
+			],
+			"hoveredShapeId": "shape:cs4gF5-bhX2UzwCL-V2Yp",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 79.65177450953763,
+			"y": -132.89968750777237,
+			"z": 0.7298750807784796,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 208.19998168945312,
+			"y": 85.40002059936523,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:nVNM3YYb8MrTy068LK_FB",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 647.4500122070312,
+				"text": "CASE STUDY OF THE NETFLIX BUSINESS CHURN RATE",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1.2962964707223177
+			},
+			"parentId": "page:page",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 35.79999923706055,
+			"y": 208.60000228881836,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:cs4gF5-bhX2UzwCL-V2Yp",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1818.8875732421875,
+				"text": "LET'S SAY WE ARE A DATA SCIENTIST AT NETFLIX AND WE ARE ASKED TO INCREASE THE REVENUE.\nCHURN RATE: IN A GIVEN PERIOD HOW MANY PEOPLE LEAVE THE PLATFORM.\nPROBLEM STATEMENT IS TO INCREASE THE REVENUE-> REDUCE THE CHURN RATE.\nSTEP 1 IS TO IDENTIFY THE PROBLEM AND TURN IT INTO A MATHEMATICAL REPRESENTATION.\nSTEP 2 IDENTIFY THE TYPE OF PROBLEM, IN OUR CASE , WE ARE TRYING TO IDENTIFY THE USERS WHO SEEM TO PLAN ON LEAVING.\nSO, IN OUR CASE.\nSTEP 3 UNDERSTAND THE CURRENT SOLUTION AND WHAT ARE THE SHORTCOMINGS IN THE CURRENT SOLUTION.\nSTEP 4 GETTING DATA \n          IN OUR CASE THE WATCH TIME, SEARCH MATCH RATES, CONTENT WATCH RETENTION / COMPLETION RATE, CLICKED ON RECOMMENDATIONS \nSTEP 5 SO U ASK THE DATA ENGINEER TO FETCH DATA FROM OLTP TO OLAP.\nSTEP 6 WHAT ARE THE METRICS TO DETERMINE IF THE INFERENCES MADE BY THE MODEL IS REALLY HELPFUL OR NOT\n STEP 7 CHOOSE BETWEEN ONLINE LEARNING AND BATCH LEARNING.\nIN OUR CASE ONLINE LEARNING IS THE RIGHT CHOICE\n\nCHECK YOUR ASSUMPTIONS->\nLIKE HOW ACCESSIBLE IS THE DATA THAT WE NEED TO TRAIN ON. \nMAKE BETTER ASSUMPTIONS,BECAUSE HUGE COMPANIES HAVE MORE INERTIA AND REVERTING THE PROJECT ISN'T VERY IDEAL.\n\n",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a27Yv",
+			"typeName": "shape"
+		}
+	]
+}
